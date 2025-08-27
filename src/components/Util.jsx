@@ -1,9 +1,12 @@
 import React from 'react'
 
-
 const Util = () => {
+  // const utilData=;
   return (
-    <div>Util</div>
+    <ul>
+
+    </ul>
   )
 }
+
 export default Util

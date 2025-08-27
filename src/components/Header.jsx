@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Util from './Util'
 import TopBanner from './TopBanner'
 import { headerData } from '../util/header'
+import "../styles/components/header.scss"
 const Header = () => {
 
   const headerLogo = headerData.logo
