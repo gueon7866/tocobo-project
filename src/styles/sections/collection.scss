@@ -1,0 +1,34 @@
+.inner.collection-inner{
+    text-align: center;
+    .t-wrap {
+        margin-bottom: 7rem;
+        h2.tit {
+            color: var(--secondary);
+        }
+        p.txt{
+            margin-top : 2rem;
+            color:var(--secondary);
+            font-size: 1.9rem;
+        }
+    }
+    .collection-slider{
+
+        .img-wrap{
+            background-color: var(--bg);
+            width: 36rem;
+            height: 36rem;
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin:auto;
+            img {
+                height:110%;
+                width: 110%;
+            }
+        }
+        .swiper-pagination{
+            position: static;
+        }
+    }
+}
